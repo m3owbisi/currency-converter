@@ -1,0 +1,109 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+.unbounded-<uniquifier> {
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} */
+/* .shippori-antique-regular {
+    font-family: "Shippori Antique", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e9c46a;
+}
+h1 {
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+p {
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+option {
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.message {
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 2rem 0 2rem 0;
+  font-size: 18px;
+}
+button {
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 3rem;
+  background-color: #f4a261;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 45vh;
+  width: 45vw;
+}
+form {
+  margin: 2rem 0 2rem 0;
+}
+form select,
+button,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+form input {
+  border: 3px solid #264653;
+  font-size: 1rem;
+  height: 3rem;
+  padding-left: 0.5rem;
+}
+.drop-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.drop-down i {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.select img {
+  font-size: 3rem;
+  max-width: 3rem;
+}
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  /* background-color: #e76f51; */
+  border-radius: 0.5rem;
+  border: 3px solid #264653;
+}
+.select select {
+  font-size: 1rem;
+  width: auto;
+}
